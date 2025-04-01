@@ -1,4 +1,8 @@
 {
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+    "@odata.type":  "#microsoft.graph.conditionalAccessPolicy",
+    "@odata.id":  "identity/conditionalAccess/policies(\u002786c4a58a-4cfd-4cdd-882e-c6e15b0ec5e7\u0027)",
+    "@odata.editLink":  "identity/conditionalAccess/policies(\u002786c4a58a-4cfd-4cdd-882e-c6e15b0ec5e7\u0027)",
     "id":  "67001ecd-1695-4995-b9ba-50f26aa759c9",
     "templateId":  "a3d0a415-b068-4326-9251-f9cdf9feeb64",
     "displayName":  "UPDATED Require multifactor authentication for all users",
