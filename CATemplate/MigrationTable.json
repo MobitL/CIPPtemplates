@@ -1,5 +1,11 @@
 {
-    "DisplayName": "Mobit Admins",
-    "Id": "7e299d0e-e0e4-417e-944c-9e60522fe140",
-    "Type": "Group"
-  }
+    "TenantId": "42ba3ed1-ae78-4fd0-8080-5f8bfcc27b29",
+    "Objects": [
+        {
+            "DisplayName": "Mobit Admins",
+            "Id": "7e299d0e-e0e4-417e-944c-9e60522fe140",
+            "Type": "Group"
+        }
+    ],
+    "Organization": "Mobit"
+}
