@@ -1,1 +1,254 @@
-{"ETag":"W/\"datetime'2025-04-03T08%3A19%3A03.9149562Z'\"","PartitionKey":"StandardsTemplateV2","RowKey":"84c44c07-29d9-4d1d-a818-dd646119c49c","Timestamp":"2025-04-03T08:19:03.9149562+00:00","GUID":"84c44c07-29d9-4d1d-a818-dd646119c49c","JSON":"{\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}],\"excludedTenants\":[],\"description\":\"<h2>CIPP Recommended Standards - Low Impact</h2><p></p><p>This standard allows you to increase a customers security with the lowest impact possible, it enables the audit log, and several other M365 quality of life features.</p>\",\"templateName\":\"CIPP Recommended Standards - Low Impact\",\"standards\":{\"AuditLog\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"PhishProtection\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"EnableCustomerLockbox\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"AnonReportDisable\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"DisableGuestDirectory\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"laps\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"PWdisplayAppInformationRequiredState\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"allowOTPTokens\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"EnableFIDO2\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"EnableHardwareOAuth\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"TAP\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}],\"standards\":{\"TAP\":{\"config\":\"true\"}}},\"PasswordExpireDisabled\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"ExternalMFATrusted\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}],\"standards\":{\"ExternalMFATrusted\":{\"state\":\"true\"}}},\"DisableTenantCreation\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"DisableM365GroupUsers\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"DisableAppCreation\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"GlobalQuarantineNotifications\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}],\"standards\":{\"GlobalQuarantineNotifications\":{\"NotificationInterval\":\"1.00:00:00\"}}},\"DisableTNEF\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"CloudMessageRecall\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}],\"standards\":{\"CloudMessageRecall\":{\"state\":\"true\"}}},\"AutoExpandArchive\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"RotateDKIM\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"AddDKIM\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"EnableMailboxAuditing\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"SendReceiveLimitTenant\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}],\"standards\":{\"SendReceiveLimitTenant\":{\"SendLimit\":\"150\",\"ReceiveLimit\":\"150\"}}},\"SendFromAlias\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]},\"SPDisallowInfectedFiles\":{\"action\":[{\"label\":\"Remediate\",\"value\":\"Remediate\"}]}},\"runManually\":true,\"GUID\":\"84c44c07-29d9-4d1d-a818-dd646119c49c\",\"createdAt\":\"2025-04-03T08:19:03.8027384Z\",\"updatedBy\":\"john.martin.askevold@mobitlevangercsp.onmicrosoft.com\",\"updatedAt\":\"2025-04-03T08:19:03.8128025Z\"}"}
+{
+  "tenantFilter": [
+    {
+      "label": "Template Tenant",
+      "value": "Template Tenant"
+    }
+  ],
+  "excludedTenants": [],
+  "description": "<h2>CIPP Recommended Standards - Low Impact</h2><p></p><p>This standard allows you to increase a customers security with the lowest impact possible, it enables the audit log, and several other M365 quality of life features.</p>",
+  "templateName": "CIPP Recommended Standards - Low Impact",
+  "standards": {
+    "AuditLog": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "PhishProtection": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "EnableCustomerLockbox": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "AnonReportDisable": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "DisableGuestDirectory": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "laps": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "PWdisplayAppInformationRequiredState": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "allowOTPTokens": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "EnableFIDO2": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "EnableHardwareOAuth": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "TAP": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ],
+      "standards": {
+        "TAP": {
+          "config": "true"
+        }
+      }
+    },
+    "PasswordExpireDisabled": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "ExternalMFATrusted": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ],
+      "standards": {
+        "ExternalMFATrusted": {
+          "state": "true"
+        }
+      }
+    },
+    "DisableTenantCreation": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "DisableM365GroupUsers": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "DisableAppCreation": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "GlobalQuarantineNotifications": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ],
+      "standards": {
+        "GlobalQuarantineNotifications": {
+          "NotificationInterval": "1.00:00:00"
+        }
+      }
+    },
+    "DisableTNEF": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "CloudMessageRecall": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ],
+      "standards": {
+        "CloudMessageRecall": {
+          "state": "true"
+        }
+      }
+    },
+    "AutoExpandArchive": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "RotateDKIM": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "AddDKIM": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "EnableMailboxAuditing": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "SendReceiveLimitTenant": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ],
+      "standards": {
+        "SendReceiveLimitTenant": {
+          "SendLimit": "150",
+          "ReceiveLimit": "150"
+        }
+      }
+    },
+    "SendFromAlias": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    },
+    "SPDisallowInfectedFiles": {
+      "action": [
+        {
+          "label": "Remediate",
+          "value": "Remediate"
+        }
+      ]
+    }
+  },
+  "runManually": true,
+  "GUID": "84c44c07-29d9-4d1d-a818-dd646119c49c",
+  "createdAt": "2025-04-03T08:19:03.8027384Z",
+  "updatedBy": "john.martin.askevold@mobitlevangercsp.onmicrosoft.com",
+  "updatedAt": "2025-04-03T08:19:03.8128025Z",
+  "@odata.context": "https://graph.microsoft.com/beta/#identity/conditionalAccess/policies/",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy"
+}
