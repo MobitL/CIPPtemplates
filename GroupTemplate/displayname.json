@@ -1,1 +1,11 @@
-{"ETag":"W/\"datetime'2025-04-03T12%3A15%3A52.4701934Z'\"","PartitionKey":"GroupTemplate","RowKey":"be5581f0-c9ef-4272-bae3-e8b82b190616","Timestamp":"2025-04-03T12:15:52.4701934+00:00","JSON":"{\"Displayname\":\"displayname\",\"Description\":null,\"groupType\":\"Security\",\"MembershipRules\":null,\"allowExternal\":\"allowExternal\",\"username\":\"4549c182-9\",\"GUID\":\"be5581f0-c9ef-4272-bae3-e8b82b190616\"}"}
+﻿{
+    "Displayname":  "displayname",
+    "Description":  null,
+    "groupType":  "Security",
+    "MembershipRules":  null,
+    "allowExternal":  "allowExternal",
+    "username":  "4549c182-9",
+    "GUID":  "be5581f0-c9ef-4272-bae3-e8b82b190616",
+    "@odata.context":  "https://graph.microsoft.com/beta/#identity/conditionalAccess/policies/",
+    "@odata.type":  "#microsoft.graph.conditionalAccessPolicy"
+}
