@@ -6,8 +6,8 @@
     }
   ],
   "excludedTenants": [],
-  "description": "<h2>CIPP Recommended Standards - Low Impact</h2><p></p><p>This standard allows you to increase a customers security with the lowest impact possible, it enables the audit log, and several other M365 quality of life features.</p>",
-  "templateName": "CIPP Recommended Standards - Low Impact",
+  "description": "<h2>CIPP Recommended Standards - Combined</h2><p></p><p>This standard allows you to increase a customers security with the low, medium and high impact, it enables the audit log, and several other M365 quality of life features.</p>",
+  "templateName": "CIPP Recommended Standards - Combined",
   "standards": {
     "AuditLog": {
       "action": [
