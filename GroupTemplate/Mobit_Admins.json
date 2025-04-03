@@ -1,1 +1,11 @@
-{"ETag":"W/\"datetime'2025-04-01T20%3A18%3A26.3664399Z'\"","PartitionKey":"GroupTemplate","RowKey":"7e299d0e-e0e4-417e-944c-9e60522fe140","Timestamp":"2025-04-01T20:18:26.3664399+00:00","JSON":"{\"Displayname\":\"Mobit Admins\",\"Description\":null,\"groupType\":\"generic\",\"MembershipRules\":null,\"allowExternal\":null,\"username\":\"ML\",\"GUID\":\"7e299d0e-e0e4-417e-944c-9e60522fe140\"}"}
+﻿{
+    "Displayname":  "Mobit Admins",
+    "Description":  null,
+    "groupType":  "generic",
+    "MembershipRules":  null,
+    "allowExternal":  null,
+    "username":  "ML",
+    "GUID":  "7e299d0e-e0e4-417e-944c-9e60522fe140",
+    "@odata.context":  "https://graph.microsoft.com/beta/#identity/conditionalAccess/policies/",
+    "@odata.type":  "#microsoft.graph.conditionalAccessPolicy"
+}

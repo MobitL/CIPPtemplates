@@ -1,1 +1,68 @@
-{"ETag":"W/\"datetime'2025-04-03T09%3A30%3A16.8402861Z'\"","PartitionKey":"CATemplate","RowKey":"8689eabb-3aff-4ad0-b27f-f513a31c6909","Timestamp":"2025-04-03T09:30:16.8402861+00:00","JSON":"{\"id\":\"82b81a8c-9a2d-45b7-b790-cca3c97c8283\",\"templateId\":\"d8c51a9a-e6b1-454d-86af-554e7872e2c1\",\"displayName\":\"Require multifactor authentication for Azure management\",\"createdDateTime\":\"2025-01-07T09:38:42.3447609Z\",\"modifiedDateTime\":\"2025-01-07T09:45:03.160713Z\",\"state\":\"enabled\",\"conditions\":{\"userRiskLevels\":[],\"signInRiskLevels\":[],\"clientAppTypes\":[\"all\"],\"platforms\":null,\"locations\":null,\"times\":null,\"deviceStates\":null,\"devices\":null,\"clientApplications\":null,\"applications\":{\"includeApplications\":[\"797f4846-ba00-4fd7-ba43-dac1f8f63013\"],\"excludeApplications\":[],\"includeUserActions\":[],\"includeAuthenticationContextClassReferences\":[],\"applicationFilter\":null},\"users\":{\"includeUsers\":[\"All\"],\"excludeUsers\":[],\"includeGroups\":[],\"excludeGroups\":[],\"includeRoles\":[],\"excludeRoles\":[],\"includeGuestsOrExternalUsers\":null,\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\",\"members\":[\"a2b18e84-31ca-4329-8784-783976e9373e\",\"d1b209ea-0ffb-4ffe-b4dd-efac86a80e61\"]}}}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"mfa\"],\"customAuthenticationFactors\":[],\"termsOfUse\":[],\"authenticationStrength@odata.context\":\"https://graph.microsoft.com/beta/$metadata#conditionalAccess/policies('82b81a8c-9a2d-45b7-b790-cca3c97c8283')/grantControls/authenticationStrength/$entity\",\"authenticationStrength\":null},\"LocationInfo\":[null,null]}","GUID":"8689eabb-3aff-4ad0-b27f-f513a31c6909"}
+﻿{
+    "id": "82b81a8c-9a2d-45b7-b790-cca3c97c8283",
+    "templateId": "d8c51a9a-e6b1-454d-86af-554e7872e2c1",
+    "displayName": "Require multifactor authentication for Azure management",
+    "createdDateTime": "2025-01-07T09:38:42.3447609Z",
+    "modifiedDateTime": "2025-01-07T09:45:03.160713Z",
+    "state": "enabled",
+    "conditions": {
+        "userRiskLevels": [],
+        "signInRiskLevels": [],
+        "clientAppTypes": [
+            "all"
+        ],
+        "platforms": null,
+        "locations": null,
+        "times": null,
+        "deviceStates": null,
+        "devices": null,
+        "clientApplications": null,
+        "applications": {
+            "includeApplications": [
+                "797f4846-ba00-4fd7-ba43-dac1f8f63013"
+            ],
+            "excludeApplications": [],
+            "includeUserActions": [],
+            "includeAuthenticationContextClassReferences": [],
+            "applicationFilter": null
+        },
+        "users": {
+            "includeUsers": [
+                "All"
+            ],
+            "excludeUsers": [],
+            "includeGroups": [],
+            "excludeGroups": [],
+            "includeRoles": [],
+            "excludeRoles": [],
+            "includeGuestsOrExternalUsers": null,
+            "excludeGuestsOrExternalUsers": {
+                "guestOrExternalUserTypes": "serviceProvider",
+                "externalTenants": {
+                    "@odata.type": "#microsoft.graph.conditionalAccessEnumeratedExternalTenants",
+                    "membershipKind": "enumerated",
+                    "members": [
+                        "a2b18e84-31ca-4329-8784-783976e9373e",
+                        "d1b209ea-0ffb-4ffe-b4dd-efac86a80e61"
+                    ]
+                }
+            }
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": [
+            "mfa"
+        ],
+        "customAuthenticationFactors": [],
+        "termsOfUse": [],
+        "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#conditionalAccess/policies(\u002782b81a8c-9a2d-45b7-b790-cca3c97c8283\u0027)/grantControls/authenticationStrength/$entity",
+        "authenticationStrength": null
+    },
+    "LocationInfo": [
+        null,
+        null
+    ],
+    "@odata.context": "https://graph.microsoft.com/beta/#identity/conditionalAccess/policies/",
+    "@odata.type": "#microsoft.graph.conditionalAccessPolicy"
+}
