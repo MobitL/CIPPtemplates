@@ -2,7 +2,7 @@
     "Displayname":  "GRP-Dropsuite",
     "Description":  null,
     "groupType":  "Security",
-    "MembershipRules":  null,
+    "MembershipRules":  "(user.objectId -eq 7e299d0e-e0e4-417e-944c-9e60522fe140)",
     "allowExternal":  null,
     "username":  "ML",
     "GUID":  "7e299d0e-e0e4-417e-944c-9e60522fe140",
