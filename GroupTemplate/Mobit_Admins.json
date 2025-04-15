@@ -1,7 +1,7 @@
 ﻿{
     "Displayname":  "GRP-MobitAdmins",
     "Description":  null,
-    "groupType":  "generic",
+    "groupType":  "Security",
     "MembershipRules":  null,
     "allowExternal":  null,
     "username":  "ML",
